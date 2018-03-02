@@ -1,3 +1,4 @@
+% definação das cláusulas
 move(1,X,Y,_) :-    
     write('Mova o dico do topo '),
     write(X),
