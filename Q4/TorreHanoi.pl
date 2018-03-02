@@ -1,13 +1,13 @@
 % definação das cláusulas
-move(1,X,Y,_) :-    
-    write('Mova o dico do topo '),
-    write(X),
-    write(' para '),
-    write(Y),
+move(1,A,B,_) :-    
+    write('Move da haste '),
+    write(A),
+    write(' para haste '),
+    write(B),
     nl.
-move(N,X,Y,Z) :-
+move(N,A,B,C) :-
     N>1,
     M is N-1,
-    move(M,X,Z,Y),
-    move(1,X,Y,_),
-    move(M,Z,Y,X).
+    move(M,A,B,C),
+    move(1,A,B,_),
+    move(M,A,B,C).
