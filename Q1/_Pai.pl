@@ -1,6 +1,5 @@
 pai(a, A) :- A = c ; A = b.
 pai(b, A) :- A = d ; A = e.
-pai(c, f).
 
 % auxiliar
 avo(A, B) :- pai(A, N), pai(N, B).
