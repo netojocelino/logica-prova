@@ -1,0 +1,11 @@
+Na letra f), o fato pai(c,f). foi retirado para simplificar a resposta e
+sua verificação no programa. Por isso, o código do arquivo "._Pai.pl" foi executado
+sem esse fato apenas para verificar a árvore de busca do predicado e responder
+a questão f). Assim, considerar o código completo aqui enviado e que foi retirado o 
+fato citado( pai(c,f). )  para a letra f, cuja amostra da árvore de busca foi 
+para o seguinte predicado.
+
+irmao(A, B) :- pai(C, A) , pai(C, B).  
+
+Essa explicação se deve porque é preciso o fato pai(c,f). para a resolução das outras 
+letras da primeira questão.
